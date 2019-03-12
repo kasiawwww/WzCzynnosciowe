@@ -46,6 +46,15 @@
     <Compile Include="Memento\Memento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stan\BigState.cs" />
+    <Compile Include="Stan\Context.cs" />
+    <Compile Include="Stan\SmallState.cs" />
+    <Compile Include="Stan\State.cs" />
+    <Compile Include="Strategia\Context.cs" />
+    <Compile Include="Strategia\IPerson.cs" />
+    <Compile Include="Strategia\Lumberman.cs" />
+    <Compile Include="Strategia\NormalPerson.cs" />
+    <Compile Include="Strategia\StrongKickPerson.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
