@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Iterator\ConcreteIterable.cs" />
+    <Compile Include="Iterator\IIterable.cs" />
+    <Compile Include="Iterator\IIterator.cs" />
+    <Compile Include="Iterator\MyIterator.cs" />
     <Compile Include="Memento\Memento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
