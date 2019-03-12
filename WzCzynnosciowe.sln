@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WzCzynnosciowe", "WzCzynnosciowe\WzCzynnosciowe.csproj", "{2A43D312-B451-4B2E-AFC0-21F3E13AB20B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditorMemento", "TextEditorMemento\TextEditorMemento.csproj", "{4BFEBD60-63B8-46CD-84F4-80AF2E7350A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A43D312-B451-4B2E-AFC0-21F3E13AB20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A43D312-B451-4B2E-AFC0-21F3E13AB20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A43D312-B451-4B2E-AFC0-21F3E13AB20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFEBD60-63B8-46CD-84F4-80AF2E7350A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFEBD60-63B8-46CD-84F4-80AF2E7350A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFEBD60-63B8-46CD-84F4-80AF2E7350A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFEBD60-63B8-46CD-84F4-80AF2E7350A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
