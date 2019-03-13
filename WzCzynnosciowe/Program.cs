@@ -5,7 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WzCzynnosciowe.Memento;
-using WzCzynnosciowe.Iterator;
+using WzCzynnosciowe.ChainOf_Responsibility;
+using WzCzynnosciowe.CopyPaste;
+using WzCzynnosciowe.HardCode;
 
 namespace WzCzynnosciowe
 {
@@ -84,27 +86,71 @@ namespace WzCzynnosciowe
 
             //ITERATOR
             //List<string> MyList = new List<string> { "kasia", "asia", "basia" };
-            ConcreteIterable ci = new ConcreteIterable();
-            ci[0] = "kasia";
-            ci[1] = "basia";
-            ci[2] = "asia";
+            // ConcreteIterable ci = new ConcreteIterable();
+            // ci[0] = "kasia";
+            // ci[1] = "basia";
+            // ci[2] = "asia";
 
-            var it = ci.GetIterator();
-            var i = it.First();
-           // Console.WriteLine(it.First());
+            // var it = ci.GetIterator();
+            // var i = it.First();
+            //// Console.WriteLine(it.First());
 
-            while (!it.IsEnd())
-            {
-                
-                Console.WriteLine(it.Current());
-                it.Next();
-                if (it.IsEnd())
-                {
-                    Console.WriteLine(it.Current());
-                }
-            }
+            // while (!it.IsEnd())
+            // {
 
-            Console.ReadLine();
+            //     Console.WriteLine(it.Current());
+            //     it.Next();
+            //     if (it.IsEnd())
+            //     {
+            //         Console.WriteLine(it.Current());
+            //     }
+            // }
+
+
+            //OBSERWATOR
+            //ConcreteSubject s = new ConcreteSubject("kasia");
+
+            //Observer o1 = new ConcreteObserver(s, "obserwator1");
+            //Observer o2 = new ConcreteObserver(s, "obserwator2");
+
+            //s.Attach(o1);
+            //s.Attach(o2);
+            //s.Notify();
+            //s.SubjectState = "ania";
+            //s.Notify();
+            //Console.ReadLine();
+
+            //CHAIN OF RESPONSIBILITY
+            //Handler S = new ConcreteHandler1();
+            //Handler M = new ConcreteHandler2();
+            //Handler R = new ConcreteHandler3();
+            //S.SetSuccessor(M);
+            //M.SetSuccessor(R);
+
+            //S.HandleRequest(20);
+            //Console.ReadLine();
+
+            //Copy&Paste
+
+            //OriginalAnimal oAnimal = new OriginalAnimal("Wodne", "Rybka");
+            ////oAnimal.SetAnimalType("Wodne");
+            //Console.WriteLine(oAnimal.GetAnimalName());
+            //Console.WriteLine(oAnimal.AnimalType);
+
+            ////Tworzymy psa
+            //Console.WriteLine();
+            ////CopyPasteDogAnimal dog = new CopyPasteDogAnimal("Lądowe", "Jeżyk", 4);
+
+            ////Console.WriteLine(dog.GetAnimalName("Jeży"));
+
+            ////Console.WriteLine(dog.GetAnimalType("Jeży"));
+
+            //Console.Read();
+
+            Divide d = new Divide();
+            Console.WriteLine(d.Dziel(4, 2));
+         
+            Console.Read();
         }
 
     }

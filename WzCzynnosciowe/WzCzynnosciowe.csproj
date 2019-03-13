@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,13 +44,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChainOf Responsibility\ConcreteHandler1.cs" />
+    <Compile Include="ChainOf Responsibility\ConcreteHandler2.cs" />
+    <Compile Include="ChainOf Responsibility\ConcreteHandler3.cs" />
+    <Compile Include="ChainOf Responsibility\Handler.cs" />
+    <Compile Include="CopyPaste\CopyPasteDogAnimal.cs" />
+    <Compile Include="CopyPaste\OriginalAnimal.cs" />
+    <Compile Include="HardCode\Divide.cs" />
+    <Compile Include="HardCode\HardCodeClass.cs" />
     <Compile Include="Iterator\ConcreteIterable.cs" />
     <Compile Include="Iterator\IIterable.cs" />
     <Compile Include="Iterator\IIterator.cs" />
     <Compile Include="Iterator\MyIterator.cs" />
     <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Obserwator\ConcreteObserver.cs" />
+    <Compile Include="Obserwator\ConcreteSubject.cs" />
+    <Compile Include="Obserwator\Observer.cs" />
+    <Compile Include="Obserwator\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singletonizm\Animal.cs" />
+    <Compile Include="Singletonizm\Color.cs" />
+    <Compile Include="Singletonizm\Direction.cs" />
+    <Compile Include="Singletonizm\User.cs" />
     <Compile Include="Stan\BigState.cs" />
     <Compile Include="Stan\Context.cs" />
     <Compile Include="Stan\SmallState.cs" />
@@ -63,5 +80,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
