@@ -56,6 +56,7 @@
     <Compile Include="Iterator\IIterable.cs" />
     <Compile Include="Iterator\IIterator.cs" />
     <Compile Include="Iterator\MyIterator.cs" />
+    <Compile Include="MagicNumbers\MagicNumbers.cs" />
     <Compile Include="Memento\Memento.cs" />
     <Compile Include="Obserwator\ConcreteObserver.cs" />
     <Compile Include="Obserwator\ConcreteSubject.cs" />
